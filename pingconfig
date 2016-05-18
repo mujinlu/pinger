@@ -1,0 +1,11 @@
+#This is a config file for pinger,sTime is the re-excute ping time,OUTPUT is the result file
+#The default config as follow will send one of 10 packets each second,packetsize=32,as one ping. The next ping will start after sTime=10
+PACKETSIZE=32
+PACKETTIMES=10
+INTERVAL=1
+IPFILE=./samplehost.txt
+sTIME=10
+TMP=./pingtmp
+OUTPUT=./pingresult.txt
+HOSTIP=10.109.32.190
+

@@ -1,0 +1,8 @@
+#FUNCTION
+PING target host in loop, record the min/max/average time of each ping
+#CONFIG
+First config the "samplehost.txt", each line is one target host IP/domain.
+Then config the "pingconfig", mainly sTime,OUT,hostIP. sTime is the interval time for each loop, OUT is the direct of the result file,hostip is the local IP.
+#USE
+USE "./pingtest.sh" to run, ctrl z to quit. 
+The result will be shown in "pingresult.txt"
